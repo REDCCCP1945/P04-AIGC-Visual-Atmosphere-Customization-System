@@ -1,0 +1,13 @@
+{
+  "name": "cultural-creative-visual-atmosphere",
+  "version": "1.0.0",
+  "private": true,
+  "description": "基于AIGC的文创视觉氛围生成与风格化定制系统V1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

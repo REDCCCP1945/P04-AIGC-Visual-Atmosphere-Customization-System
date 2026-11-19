@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>项目分享 · 基于AIGC的文创视觉氛围生成与风格化定制系统V1.0</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="share-root" class="share-root">
+  <div class="share-head">
+    <div>
+      <h1 id="share-title">项目分享</h1>
+      <p id="share-meta">正在加载分享内容</p>
+    </div>
+    <div class="row">
+      <input class="input" id="reviewer-name" placeholder="您的称呼" value="外部浏览者" style="width:160px">
+      <button class="btn" id="refresh">刷新</button>
+    </div>
+  </div>
+  <div id="share-message"></div>
+  <div id="share-grid" class="share-grid"></div>
+</div>
+<div id="modal-root"></div>
+<div id="toast-root" class="toast-root"></div>
+<script src="js/ui.js"></script>
+<script src="js/share.js"></script>
+</body>
+</html>
